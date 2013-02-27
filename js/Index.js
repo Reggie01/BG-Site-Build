@@ -24,7 +24,7 @@
 	        var imgTitle = $(this).next("img").attr("title");
 	        var imgHeight = $(this).next("img").css("height");
 	        var imgWidth = $(this).next("img").css("width");
-	        $('#txtRotate').text('Cool Kids');
+	        /* $('#txtRotate').text('Cool Kids'); */
 	        $('.imgHover').css({
 	            'height': imgHeight,
 	            'width': imgWidth
@@ -57,7 +57,7 @@
 		if($('.textItem').length > 0)
 	     {
 	         $('.textItem:first').addClass('current').fadeIn(1000);
-	         setInterval('textRotate()', 5000);
+	         setInterval('textRotate()', 3000);
 	     }
 	 }
 	 

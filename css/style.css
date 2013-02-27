@@ -5,9 +5,19 @@
 
 /* First, pull in Bootstrap's stylesheet*/
 @import url(../css/bootstrap.css);
-@import url(http://fonts.googleapis.com/css?family=Permanent+Marker|Fredericka+the+Great|Source+Code+Pro:300,400);
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker|Fredericka+the+Great|Source+Code+Pro:300,400|Open+Sans:400,600,300);
 
 /*Now my custom styles*/
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#headP{
+	max-width: 50%;
+	margin: 20px auto 0;
+	font-size: 1.5em;
+	line-height: 33px;
+}
 .imgHover {
 	background-color: rgba(218, 218, 218, 0.68);
 	height: 180px;
