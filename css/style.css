@@ -179,3 +179,16 @@ p{
 	border-bottom:2px dotted rgba(145, 145, 145, 0.13);
 	margin: 0 auto;
 }
+
+.green{
+	color: green;
+}
+
+.blue{
+	color: rgb(86, 86, 255);
+}
+
+.navbar .nav > li > a.blue{
+	color: rgb(86, 86, 255);
+}	
+	
