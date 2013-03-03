@@ -6,15 +6,16 @@
 	        wrapper: '<div class="sticky-wrapper" />',
 	        stuckClass: 'fixie'
 	    });
-	
-		function addColor(x,y) {
-		console.log("hello");
-			if($(x).waypoint()){
-			$(x).waypoint(function() {
-				$(y).addClass("blue");
-				});
-			}	
+		
+		function addColor(w,z) {
+			var x = ".meetus > a, .contact > a, .work > a, .about > a"
+			var y = "blue"
+			$(w).waypoint(function() {
+				$(x).removeClass(y);
+				$(z).addClass(y);
+			});
 		}
+		addColor(".about", ".about > a");
 		addColor("#work", ".work > a");
 		addColor("#meetus", ".meetus > a");
 		addColor("#contact", ".contact > a");
