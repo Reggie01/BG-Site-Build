@@ -7,6 +7,18 @@
 	        stuckClass: 'fixie'
 	    });
 	
+		function addColor(x,y) {
+		console.log("hello");
+			if($(x).waypoint()){
+			$(x).waypoint(function() {
+				$(y).addClass("blue");
+				});
+			}	
+		}
+		addColor("#work", ".work > a");
+		addColor("#meetus", ".meetus > a");
+		addColor("#contact", ".contact > a");
+			
 	    function scroll(x, y) {
 	        $(x).on("click", function(event) {
 	            event.preventDefault();
