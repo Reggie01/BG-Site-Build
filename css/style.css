@@ -119,6 +119,8 @@ p{
 
 #head{
 	text-align: center;
+	background-color: #BD7723;
+	padding-bottom: 3%;
 	//width: 100%;
 }
 
@@ -192,5 +194,11 @@ p{
 	color: rgb(86, 86, 255);
 }	
 
-
+@media (max-width: 767px) {
+  .adjustMargin {
+    margin-right: -20px;
+    margin-left: -20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 	
