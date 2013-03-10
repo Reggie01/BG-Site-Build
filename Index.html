@@ -10,17 +10,8 @@
     <meta content="" name="author"><!-- Le styles -->
     <!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
     <link href="img/favi.ico" rel="icon">
-    <link href="css/style.css" rel="stylesheet">
-    <style type="text/css">
-	  body {
-        <!--padding-top: 60px;-->
-        padding-bottom: 40px;
-      }
-      .sidebar-nav {
-        padding: 9px 0;
-      }
-    </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -34,8 +25,6 @@
 </head>
 
 <body>
-    <div class="row eight columns centered" id="head" style=
-    "background-color: #BD7723; padding-bottom: 3%; text-align: center">
         <div class="row-fluid adjustMargin" id="head">
             <h2><span class="green">Bleu</span> <span class="blue">Green</span> Creatives</h2>
 
@@ -151,20 +140,34 @@
                         </div><br>
 
                         <div class="span6" style="clear:both;margin-top:10px;">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt risus vel tellus
-                            vestibulum eu accumsan nibh tempus.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt risus vel tellus vestibulum eu accumsan nibh tempus.</p>
                         </div>
                     </div><!--span5-->
                 </div><!--row-fluid-->
 
                 <div class="divider" id="contact"></div>
-
                 <h2 style="text-align: center;">CONTACT</h2>
+                <div class="row-fluid">
+	                <div class="span4"></div>
+		                <form id="dEmail" class="span4" method="POST" action="/email.php"><br>
+								<input style="margin-top: 40px;" type="text" name="name" placeholder="Name (required)"><br><br>
+								<input type="text" name="mail" placeholder="Email (required)"><br><br>
+					        <div id="hPot">
+					            <label>If you're human leave this blank:</label>
+					            <input name="robotest" type="text" id="robotest" class="robotest" />
+					        </div>					
+							<textarea rows="5" name="comment" cols="40" placeholder="Place your Message here...."></textarea><br><br>
+							<span>
+								<input type="submit" value="Send">
+								<input type="reset" value="Reset">
+							</span>
+						</form>
+					<div class="span4"></div>
+                </div>
             </div><!--row-fluid-->
         </div><!--container-fluid-->
 
         <div class="twelve columns" id="cSub" style="height: 500px;"></div>
-    </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.1.0.js"></script>
     <script src="js/bootstrap.min.js"></script>

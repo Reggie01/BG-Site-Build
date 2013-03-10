@@ -8,6 +8,12 @@
 @import url(http://fonts.googleapis.com/css?family=Permanent+Marker|Fredericka+the+Great|Source+Code+Pro:300,400|Open+Sans:400,600,300);
 
 /*Now my custom styles*/
+body {
+padding-bottom: 40px;
+}
+.sidebar-nav {
+padding: 9px 0;
+}
 p{
 	font-family: 'Open Sans', sans-serif;
 }
@@ -193,7 +199,63 @@ p{
 .navbar .nav > li > a.blue{
 	color: rgb(86, 86, 255);
 }	
+#dEmail{
+	margin: 0;
+	position: relative;
+	padding-left: 10%;
+}
+#dEmail input{
+	font-size: 13px;
+	font-weight: bold;
+	border: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0 10px;
+	height: 35px;
+	border: 1px solid black;
+	background-color: rgba(255, 255, 255, 0.77);
+}
+#dEmail input:hover, #dEmail input:focus, textarea:hover, textarea:focus{
+	background-color: rgb(255, 255, 255);
+}
+#hPot{
+	display: none;
+}
 
+input[type="submit"] {
+	margin: 0;
+	width: 85px;
+	color: #5d7731;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+	background: #b6d76f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#cae285), to(#9dc954));
+	background: -moz-linear-gradient(top, #cae285, #9dc954);
+	-webkit-box-shadow: inset 0px 1px 2px rgba(255,255,255,1), 0 1px 1px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0px 1px 2px rgba(255,255,255,1), 0 1px 1px rgba(0,0,0,0.3);
+	box-shadow: inset 0px 1px 2px rgba(255,255,255,1), 0 1px 1px rgba(0,0,0,0.3);
+}
+#dEmail input[type="reset"] {
+	width: 85px;
+	color: white;
+	background: #ec5e41;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F08484), to(#F1503A));
+	background: -moz-linear-gradient(top, #F08484, #F1503A);
+	-webkit-box-shadow: inset 0px 1px 2px rgba(255,255,255,1), 0 1px 1px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0px 1px 2px rgba(255,255,255,1), 0 1px 1px rgba(0,0,0,0.3);
+	box-shadow: inset 0px 1px 2px rgba(255,255,255,1), 0 1px 1px rgba(0,0,0,0.3);
+}
+textarea{
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 0 10px;
+	background-color: rgba(255, 255, 255, 0.77);
+	font-size: 13px;
+	height: 70px;
+}
+
+
+/*--- Media Queries ---*/
 @media (max-width: 767px) {
   .adjustMargin {
     margin-right: -20px;
@@ -201,4 +263,3 @@ p{
     padding-right: 20px;
     padding-left: 20px;
   }
-	
