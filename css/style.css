@@ -16,6 +16,13 @@ padding: 9px 0;
 }
 p{
 	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	font-size: 1.0em;
+}
+
+.navbar .nav > li > a {
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-size: 18px;
 }
 
 #headP{
@@ -23,6 +30,7 @@ p{
 	margin: 20px auto 0;
 	font-size: 1.5em;
 	line-height: 33px;
+	text-align: center;
 }
 .imgHover {
 	background-color: rgba(218, 218, 218, 0.68);
@@ -41,7 +49,7 @@ p{
 line-height: 1.3;
 color: #6f6f6f;
 font-weight: 300;
-margin-bottom: 17px;
+
 }
 
 #slideShim img{
@@ -178,6 +186,8 @@ margin-bottom: 17px;
 	cursor: pointer;
 	color: #b1b1b1;
 	height: auto;
+	font-size: 20px;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 .textItem{
 	position:absolute;
@@ -188,10 +198,11 @@ margin-bottom: 17px;
 	color: green;
 }
 .divider{
-	width:60%;
+	width: 60%;
 	height:100px;
-	border-bottom:2px dotted rgba(145, 145, 145, 0.13);
-	margin: 0 auto;
+	border-bottom: 2px dotted rgba(65, 65, 65, 0.13);
+	margin: 0 auto 50px auto;
+	border-width: medium;
 }
 
 .green{
@@ -205,6 +216,13 @@ margin-bottom: 17px;
 .navbar .nav > li > a.blue{
 	color: rgb(86, 86, 255);
 }	
+
+.fancy {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
 #dEmail{
 	margin: 0;
 	position: relative;
